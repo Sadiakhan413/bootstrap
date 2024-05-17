@@ -1,0 +1,99 @@
+#pic1{
+
+   align-items: end;
+}
+#gen
+{
+    background-color: grey;
+}
+#rs
+{
+    background-color: grey;
+}
+#but
+{
+    width:20px;
+}
+#but :hover
+{
+background-color: rgb(58, 56, 56);
+color: white;
+}
+#donate:hover
+{
+    width: 100;
+}
+.pic2
+{
+    align-self: center;
+}
+#test
+{
+    color: green;
+}
+#sect
+{
+    align-items: center;
+    background: fixed;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(199, 190, 190);
+}
+#home
+{
+    color: blue;
+
+}
+#home :hover
+{
+   text-decoration: underline;
+}
+#name
+{
+    color: blue;
+}
+footer{
+    background-color: grey;
+}
+#top-row
+{
+    background-color: rgb(231, 231, 231);
+    font-size: small;
+    background-attachment: fixed;
+}
+#lang{
+    justify-self: end;
+    float: right;
+    margin-right: 20px;
+    }
+
+#projects
+{
+    margin-right: 50px;
+    margin-left: 60px;
+
+}
+footer
+{
+    background-image: url(./images/foot.jpg);
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#proj
+{
+    color: blue;
+}
+ #prow
+ {
+   
+    align-items: center; 
+ }
+ #saylani
+ {
+    color: green;
+ }
+ #paragraph
+ {
+    margin-left: 30px;
+ }
