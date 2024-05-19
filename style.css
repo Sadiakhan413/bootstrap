@@ -18,6 +18,26 @@
 {
 background-color: rgb(58, 56, 56);
 color: white;
+transform: scale(1.1);
+}
+#do
+{
+   display: flex;
+}
+#do :hover
+{
+background-color: rgb(58, 56, 56);
+color: white;
+transform: scale(1.1);
+}
+#doing
+{
+    display: flex;
+    margin-left: 60px;
+}
+#don
+{
+    margin-left: 60px;
 }
 #donate:hover
 {
@@ -66,7 +86,10 @@ footer{
     float: right;
     margin-right: 20px;
     }
-
+#doing{
+    
+    margin-left: 60px;
+}
 #projects
 {
     margin-right: 50px;
@@ -76,9 +99,11 @@ footer{
 footer
 {
     background-image: url(./images/foot.jpg);
- background-size: cover;
+     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 100%;
+    background-origin: border-box;
 }
 #proj
 {
@@ -96,4 +121,49 @@ footer
  #paragraph
  {
     margin-left: 30px;
+ }
+ img {
+    max-width: 100%;
+    height: auto;
+  }
+ @media (max-width: 768px)
+  {
+    img {
+      max-width: 80%;
+    }
+  }
+  #graphs
+  {
+    margin-left: 30px;
+  }
+  nav{
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px)
+  {
+    nav {
+      max-width: 80%;
+    }
+  }
+  #amount
+  {
+    background-color: rgb(199, 223, 199);
+  }
+ #form-foot
+ {
+    color: blue;
+    background-color: white;
+ }
+ #form-donate
+ {
+    color: white;
+    background-color:blue;
+ }
+ th{
+    color:  rgb(139, 139, 245);;
+ }
+ td
+ {
+    border-color: green;
  }
